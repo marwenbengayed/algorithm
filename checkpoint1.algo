@@ -1,0 +1,26 @@
+ALGORITHM Sentence
+VAR
+    T:= ARRAY_OF CHAR;
+    S:=STRING ;
+    ch:=CHAR;
+    i:=INTEGER;
+    W:=INTEGER;
+    v:=INTEGER;
+    
+BEGIN
+w:=0;
+v:=0;
+i:=1;
+    FOR i FROM 1 TO n STEP step 1  DO; 
+    REPEAT
+    ch:=T[i];
+    SWITCH (ch) DO;
+        case 1 ch:=' ','.' : W:=W+1 ; 
+        case 2 ch:='a','e','i','o','u','y':v:=v+1 ; 
+        otherwise
+        default : T[n]:=length S ; 
+    END_SWITCH
+    UNTIL (ch:='.') ;
+    
+END_FOR;
+END.
