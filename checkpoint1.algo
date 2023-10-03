@@ -21,6 +21,8 @@ i:=1;
         default : T[n]:=length S ; 
     END_SWITCH
     UNTIL (ch:='.') ;
-    
+    write (W);
+    write (V);
+    write (T[i]);
 END_FOR;
 END.
